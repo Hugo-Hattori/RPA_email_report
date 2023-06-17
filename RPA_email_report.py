@@ -70,7 +70,7 @@ time.sleep(5)
 pyautogui.click(x=138, y=195)
 time.sleep(5)
 #Passo 10: escrever o destinatário
-pyautogui.write("hugohatori275@gmail.com")
+pyautogui.write("136493140+Hugo-Hattori@users.noreply.github.com")
 pyautogui.press("tab") #confirma o destinatário
 pyautogui.press("tab") #passa para o próximo campo
 
