@@ -32,4 +32,4 @@ https://github.com/Hugo-Hattori/RPA_email_report/blob/23fae2a2136cd9124ba430c975
 
 <p> Disclaimer: the website used in this project was created as a form of simulating a
 log in process and the data presented in "Compras.csv" is fictitious and only used
-for purpose academic.</p>
+for academic purpose.</p>
