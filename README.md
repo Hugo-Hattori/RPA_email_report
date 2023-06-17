@@ -9,12 +9,8 @@ automatically sends an E-mail Report regarding simulated purchase orders.</p>
 + time
 + pyperclip
 
-<p>This automation mainly relies on the pyautogui package to automatically control
+<p>This automation mainly relies on pyautogui package in order to automatically control
 the mouse and keyboard to perform actions described below.</p>
-
-<p> Disclaimer: the website used in this project was created as a form of simulating a
-log in process and the data presented in "Compras.csv" is fictitious and only used
-for purpose academic.</p>
 
 ## Getting the data
 <p>The data is collected from an online database, in order to download it we need to
@@ -33,3 +29,7 @@ https://github.com/Hugo-Hattori/RPA_email_report/blob/23fae2a2136cd9124ba430c975
 from the "Compras.csv" file.</p>
 
 https://github.com/Hugo-Hattori/RPA_email_report/blob/23fae2a2136cd9124ba430c975e3fd721e55ff5d/RPA_email_report.py#L69-L97
+
+<p> Disclaimer: the website used in this project was created as a form of simulating a
+log in process and the data presented in "Compras.csv" is fictitious and only used
+for purpose academic.</p>

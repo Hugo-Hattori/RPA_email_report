@@ -27,11 +27,11 @@ time.sleep(5)
 
 #Passo 2: Preencher o login
 pyautogui.click(x=968, y=376)
-pyautogui.write("meu_login")
+pyautogui.write(username)
 
 #Passo 3: Preencher a senha
 pyautogui.click(x=968, y=452)
-pyautogui.write("minha_senha")
+pyautogui.write(password)
 
 #Passo 4: Apertar em acessar
 pyautogui.click(x=968, y=525)
