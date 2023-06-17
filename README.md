@@ -8,6 +8,7 @@ automatically sends an E-mail Report regarding simulated purchase orders.</p>
 + pyautogui
 + time
 + pyperclip
++ pandas
 
 <p>This automation mainly relies on pyautogui package in order to automatically control
 the mouse and keyboard to perform actions described below.</p>
