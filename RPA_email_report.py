@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pyautogui
 import time
 import pandas as pd
@@ -17,12 +11,10 @@ pyautogui.PAUSE = 1
 pyautogui.press("win")
 pyautogui.write("opera")
 pyautogui.press("enter")
-
 time.sleep(5)
 
 pyautogui.write("https://pages.hashtagtreinamentos.com/aula1-intensivao-sistema")
 pyautogui.press("enter")
-
 time.sleep(5)
 
 #Passo 2: Preencher o login
@@ -43,22 +35,13 @@ pyautogui.click(x=420, y=459)
 #Passo 6: Baixar arquivo
 pyautogui.click(x=545, y=200)
 
-
-# In[2]:
-
-
 #Passo 7: Cálculo dos indicadores
 tabela = pd.read_csv(r"C:\Users\Hugo\Downloads\Compras.csv", sep=";")
 
 total_gasto = tabela["ValorFinal"].sum()
 quantidade = tabela["Quantidade"].sum()
 preco_medio = total_gasto/quantidade
-
 time.sleep(5)
-
-
-# In[3]:
-
 
 #Passo 8: Entrar no e-mail: https://mail.google.com/mail/u/0/?tab=om#inbox
 pyautogui.hotkey("ctrl", "t")
@@ -69,6 +52,7 @@ time.sleep(5)
 #Passo 9: Clicar em "escrever"
 pyautogui.click(x=138, y=195)
 time.sleep(5)
+
 #Passo 10: escrever o destinatário
 pyautogui.write("136493140+Hugo-Hattori@users.noreply.github.com")
 pyautogui.press("tab") #confirma o destinatário
@@ -93,6 +77,5 @@ Hugo Hatori"""
 
 pyperclip.copy(texto)
 pyautogui.hotkey("ctrl","v")
-
 pyautogui.hotkey("ctrl","enter") #envia o e-mail
 
