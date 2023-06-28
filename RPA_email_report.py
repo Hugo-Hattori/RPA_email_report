@@ -1,13 +1,11 @@
 import pyautogui
 import time
 import pandas as pd
-import pyperclip #copia e cola o texto para casos de uso de caracteres especiais
+import pyperclip 
 
 pyautogui.PAUSE = 1
 
 #Passo 1: Abrir o a página de login do sistema
-
-#Abre nova janela caso navegador esteja fechado
 pyautogui.press("win")
 pyautogui.write("opera")
 pyautogui.press("enter")
@@ -78,4 +76,3 @@ Hugo Hatori"""
 pyperclip.copy(texto)
 pyautogui.hotkey("ctrl","v")
 pyautogui.hotkey("ctrl","enter") #envia o e-mail
-
